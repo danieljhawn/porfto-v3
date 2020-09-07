@@ -1123,6 +1123,11 @@ body {
   right: -12px
 }
 
+.about--banner span {
+  font-weight: 200;
+  font-size: 2rem;
+}
+
 .about--options {
   display: -webkit-box;
   display: -webkit-flex;
