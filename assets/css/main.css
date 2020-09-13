@@ -1124,7 +1124,7 @@ body {
   position: absolute;
   bottom: -90px;
   width: 100%;
-  box-shadow: 0px 0px 500px 5px #0011ff;
+  box-shadow: 0px 0px 500px 5px #0212a1;
 }
 
 .about--banner span {
@@ -1172,7 +1172,7 @@ body {
 }
 
 .about--options>a:hover h3 {
-  bottom: -50px
+  font-size: 1.1rem;
 }
 
 .about--options h3 {
@@ -1181,8 +1181,8 @@ body {
   left: 10px;
   font-size: 16px;
   text-transform: uppercase;
-  -webkit-transition: bottom .2s ease-in-out, left .2s ease-in-out;
-  transition: bottom .2s ease-in-out, left .2s ease-in-out
+  -webkit-transition: font-size .1s ease-in-out;
+  transition: font-size .1s ease-in-out
 }
 
 @media (max-width: 767px) {
@@ -1250,7 +1250,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, rgba(75, 69, 69, 0.3), rgba(0, 0, 0, 0.8)), url("https://images.unsplash.com/photo-1588993608283-7f0eda4438be?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+  background: linear-gradient(to left, rgba(25, 47, 149, 0.3), rgba(7, 18, 46, 0.8)), url("https://images.unsplash.com/photo-1588993608283-7f0eda4438be?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
