@@ -249,7 +249,7 @@ body {
   color: #fff;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%
-}
+  }
 
 .l-viewport {
   position: relative;
@@ -1346,7 +1346,7 @@ body {
   font-weight: 700
 }
 
-.hire {
+.gitLinks {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1364,19 +1364,46 @@ body {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin: 0 auto
+  margin: 0 auto;
+  
 }
 
 @media (max-width: 1180px) {
-  .hire {
+  .gitLinks {
     max-width: 100%
   }
 }
 
-.hire h2 {
-  margin: 0 0 20px 0;
+.gitLinks h2 {
+  margin-bottom: 80px;
   font-size: 30px;
   text-align: center
+}
+
+.gitLinks ul li {
+  margin: 0 0 20px 0;
+  font-size: 30px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.gitLinks a {
+  /* line-height: .8rem; */
+  color: #FFF;
+  font-size: 18px;
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+
+}
+
+.gitLinks a:visited {
+  /* line-height: .8rem; */
+  color: #FFF;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+  list-style-type: none;
 }
 
 .work-request {
