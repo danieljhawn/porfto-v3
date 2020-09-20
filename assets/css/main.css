@@ -1150,25 +1150,11 @@ body {
 .about--options>a {
   position: relative;
   width: 150px;
-  height: 75px;
+  height: 15px;
   text-decoration: none;
   color: #fff;
-  border: 10px solid #0f33ff;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat
-}
-
-.about--options>a:nth-child(1) {
-  background-image: url("../img/about-winners.jpg")
-}
-
-.about--options>a:nth-child(2) {
-  background-image: url("../img/about-philosophy.jpg")
-}
-
-.about--options>a:nth-child(3) {
-  background-image: url("../img/about-history.jpg")
+  border: 15px solid #0f33ff;
+  background-color: #0f33ff;
 }
 
 .about--options>a:hover h3 {
@@ -1179,7 +1165,7 @@ body {
 
 .about--options h3 {
   position: absolute;
-  bottom: -40px;
+  bottom:-20px;
   left: 10px;
   font-size: 16px;
   text-transform: uppercase;
