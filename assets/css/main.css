@@ -249,7 +249,7 @@ body {
   color: #fff;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%
-  }
+}
 
 .l-viewport {
   position: relative;
@@ -688,22 +688,13 @@ body {
   background-color: #282828
 }
 
-.intro--banner::after {
-  content: "";
-  position: absolute;
-  bottom: 18px;
-  left: 0;
-  width: 30px;
-  height: 4px;
-  background-color: #0f33ff
-}
-
 .intro--banner h1 {
   position: relative;
   font-size: 68px;
   font-weight: 900;
   line-height: 1.3;
-  z-index: 1
+  z-index: 1;
+  text-align: center;
 }
 
 .intro--banner button {
@@ -746,7 +737,7 @@ body {
   position: absolute;
   bottom: 21px;
   right: -12px;
-  width: 103%
+  width: 103%;
 }
 
 .intro--options {
@@ -766,13 +757,16 @@ body {
 .intro--options>a {
   max-width: 250px;
   text-decoration: none;
-  color: #282828;
-  -webkit-transition: color .2s ease-in-out;
-  transition: color .2s ease-in-out
+  color: #fff;
+  transition: color .2s ease-in-out;
+  box-shadow: -4px -4px 6px #ffffff;
+  padding: 0px 0px 0px 10px;
 }
 
 .intro--options>a:hover {
-  color: #fff
+  color: #FFFFFF;
+  text-shadow: 2px 2px 3px #ffffff;
+  transition: .2s;
 }
 
 .intro--options h3 {
@@ -1165,7 +1159,7 @@ body {
 
 .about--options h3 {
   position: absolute;
-  bottom:-20px;
+  bottom: -20px;
   left: 10px;
   font-size: 16px;
   text-transform: uppercase;
@@ -1299,7 +1293,7 @@ body {
 }
 
 .contact--lockup .modal--options {
-  margin: 0;
+  margin-top: 50px;
   padding: 0;
   list-style: none
 }
@@ -1333,25 +1327,13 @@ body {
 }
 
 .gitLinks {
-  position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   width: 700px;
   max-width: 75%;
   height: 100%;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
   justify-content: center;
   margin: 0 auto;
-  
 }
 
 @media (max-width: 1180px) {
@@ -1380,7 +1362,6 @@ body {
   text-align: center;
   list-style-type: none;
   text-decoration: none;
-
 }
 
 .gitLinks a:visited {
