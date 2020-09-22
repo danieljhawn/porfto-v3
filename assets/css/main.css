@@ -763,7 +763,7 @@ body {
   padding: 0px 0px 0px 10px;
 }
 
-.intro--options>a:hover {
+.intro--options h3:hover {
   color: #FFFFFF;
   text-shadow: 2px 2px 3px #ffffff;
   transition: .2s;
@@ -785,9 +785,7 @@ body {
   .intro--banner h1 {
     font-size: 55px
   }
-  /* .intro--banner img {
-    width: 430px
-  } */
+
   .intro--options>a {
     margin-right: 30px
   }
@@ -1127,16 +1125,10 @@ body {
 }
 
 .about--options {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
   max-width: 600px;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
-  margin: -30px;
+  /* margin: --60px; */
   padding: 0;
   list-style: none
 }
@@ -1144,11 +1136,12 @@ body {
 .about--options>a {
   position: relative;
   width: 150px;
-  height: 15px;
+  height: 145px;
   text-decoration: none;
   color: #fff;
   border: 15px solid #0f33ff;
   background-color: #0f33ff;
+  margin-bottom: 30px;
 }
 
 .about--options>a:hover h3 {
@@ -1158,71 +1151,36 @@ body {
 }
 
 .about--options h3 {
-  position: absolute;
-  bottom: -20px;
-  left: 10px;
+  position: relative;
+  top: -20px;
   font-size: 16px;
   text-transform: uppercase;
   -webkit-transition: font-size .1s ease-in-out;
   transition: font-size .1s ease-in-out
 }
 
-@media (max-width: 767px) {
-  .about--banner {
-    height: 305px
-  }
-  .about--banner::before {
-    top: 0;
-    left: 125px
-  }
-  .about--banner::after {
-    top: 35px;
-    left: 260px
-  }
-  .about--banner h2 {
-    margin-top: 10px;
-    font-size: 44px
-  }
-  .about--banner h2::before {
-    top: 28px;
-    left: 168px
-  }
-  .about--banner h2::after {
-    top: 163px;
-    left: 163px
-  }
-  .about--banner img {
-    width: 315px
-  }
+.about--options p {
+  margin: 0;
+  position: relative;
+  top: -20px;
 }
 
-@media (max-width: 600px) {
-  .about--banner {
-    height: auto
-  }
-  .about--banner::before {
-    left: 155px
-  }
-  .about--banner::after {
-    left: 310px
+@media (max-width: 975px) {
+  .about {
+    align-items: center;
   }
   .about--banner h2 {
-    margin-top: 0;
-    font-size: 55px
-  }
-  .about--banner h2::before {
-    top: 43px;
-    left: 214px
-  }
-  .about--banner h2::after {
-    top: 205px;
-    left: 205px
-  }
-  .about--banner img {
-    display: none
+    text-align: center;
+    display: none;
   }
   .about--options {
-    display: none
+    position: absolute;
+    top: 80px;
+    flex-direction: column;
+  }
+  .about--options>a {
+    width: 275px;
+    height: 100px;
   }
 }
 
