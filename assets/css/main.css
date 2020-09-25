@@ -677,7 +677,7 @@ body {
   position: relative;
   height: 475px
 }
-
+/* 
 .intro--banner::before {
   content: "";
   position: absolute;
@@ -686,7 +686,7 @@ body {
   right: 0;
   height: 2px;
   background-color: #282828
-}
+} */
 
 .intro--banner h1 {
   position: relative;
@@ -824,24 +824,19 @@ body {
   .intro--banner h1 {
     font-size: 55px
   }
-  .intro--banner img {
-    display: none
-  }
 }
 
-@media (max-width: 600px) and (max-height: 750px) {
-  .intro--banner {
-    height: auto
+@media (max-width: 440px) {
+  /* .intro--banner {
+    display: none
   }
   .intro--banner::before, .intro--banner::after {
     display: none
-  }
+  } */
   .intro--banner h1 {
-    margin-top: 0
+    margin-top: 8rem;
   }
-  .intro--options {
-    display: none
-  }
+
 }
 
 .work {
